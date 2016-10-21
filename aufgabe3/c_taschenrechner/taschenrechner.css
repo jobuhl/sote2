@@ -1,2 +1,24 @@
-table {
+
+section{
+    background: gray;
+    margin-left: 40%;
+    margin-top: 10%;
+    box-sizing: border-box;
+    width: 125px;
+
+
 }
+
+button{
+    height: auto;
+}
+
+#td1{
+    background-color: white;
+    width: 120px;
+}
+
+
+body{
+      transform: scale(2);
+  }

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" type="text/css" src ='taschenrechner.css'>
+    <link rel="stylesheet" type="text/css" href='taschenrechner.css'>
     <script type="text/javascript" src="taschenrechner.js"></script>
 
 </head>
@@ -12,15 +12,20 @@
 
 <section>
 
-    <fieldset id="feld1" type="text"></fieldset>
-<table>
-    <tr> <td><button>1</button></td> <td><button>2</button></td> <td><button>3</button></td> <td><button>*</button></td> </tr>
-    <tr> <td><button>4</button></td> <td><button>5</button></td> <td><button>6</button></td> <td><button>/</button></td> </tr>
-    <tr> <td><button>7</button></td> <td><button>8</button></td> <td><button>9</button></td> <td><button>-</button></td> </tr>
-    <tr> <td><button>0</button></td> <td><button>=</button></td> <td><button>.</button></td> <td><button>+</button></td> </tr>
-</table>
+<form>
+    <table>
 
-</section>
+        <tr><td id="td1"> 0 </td></tr>
+    </table>
+<table>
+
+    <tr> <td><button id="b1" onclick="insertText()">1</button></td> <td><button id="b2">2</button></td> <td><button id="b3">3</button></td> <td><button id="b13">*</button></td> </tr>
+    <tr> <td><button id="b4">4</button></td> <td><button id="b5">5</button></td> <td><button id="b6">6</button></td> <td><button id="b14">/</button></td> </tr>
+    <tr> <td><button id="b7">7</button></td> <td><button id="b8">8</button></td> <td><button id="b9">9</button></td> <td><button id="b15">-</button></td> </tr>
+    <tr> <td><button id="b0">0</button></td> <td><button id="b11">=</button></td> <td><button id="b12">.</button></td> <td><button id="b16">+</button></td> </tr>
+</table>
+</form>
+    </section>
 
 </body>
 </html>
