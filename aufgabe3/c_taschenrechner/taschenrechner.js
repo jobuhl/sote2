@@ -1,7 +1,7 @@
 /**
  * Created by Jojo on 21.10.16.
  */
-function insertText(){
+function insertText() {
 
     /*Holt den Wert der Anzeige*/
     var wert = document.getElementById('td1').firstChild.nodeValue;
@@ -9,6 +9,10 @@ function insertText(){
 
     /*Holt den Wert der Zahl*/
     var eins = document.getElementById('b1').innerText;
-    alert(eins)
+
+    alert(eins);
+
+    document.getElementById('td1').innerHTML('<p>8</p>');
 
 }
+
